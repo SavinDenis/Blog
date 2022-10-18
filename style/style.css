@@ -104,6 +104,7 @@ img {
 }
 
 .list_1 {
+    display: flex;
     margin: 0;
     padding: 0;
     width: 800px;
@@ -111,6 +112,12 @@ img {
     background-image: url(../img/IMAGE.jpg);
 }
 
+.list_1 p {
+    color: #000;
+}
+.list_1in {
+        float: left;
+}
 .list_2 {
     margin: 0;
     padding: 0;

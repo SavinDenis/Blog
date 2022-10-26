@@ -28,14 +28,15 @@ p {
     height: 100%;
     background-image: url(../img/nature-doroga-gori-les-asfalt-peizazh-131004.jpeg);
     margin: auto;
+    
 }
 
 .container {
     width: 100%;
     max-width: 800px;
     margin: auto;
-    margin-top: 50px;
-    padding-bottom: 99px;
+    
+    
 
 }
 
@@ -45,6 +46,7 @@ p {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 50px;
     
     
 }

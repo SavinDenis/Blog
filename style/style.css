@@ -1,1 +1,152 @@
+ul {
+    margin: 0;
+    padding-inline-start: 0;
+}
 
+li {
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+    font-weight: 400;
+}
+
+.body {
+    background-image: url(../img/nature-doroga-gori-les-asfalt-peizazh-131004.jpeg);
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.header {
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    margin-bottom: 72px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo-img {
+    display: block;
+    margin: auto;
+    margin-bottom: 52px;
+}
+
+.nav {
+    margin: auto;
+    padding: 0 90px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+
+}
+.foto {
+    background-image: url(../img/IMAGE.jpg);
+    color: #fff;
+}
+
+.travel{
+    display: flex;
+    justify-content: right;
+    padding: 20px 20px 0 0;
+}
+.travel-btn {
+    display: inline-block;
+    justify-content: right;
+    font-size: 8px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 1px 10px ;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 115px;
+    color: #fff;
+}
+
+
+
+
+
+.portret{
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+    margin-bottom: 18px;
+    
+}
+
+.portret-mini{
+    border: none;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+
+.main-title{
+    max-width: 470px;
+    margin-left: 60px;
+    padding-bottom: 40px;
+    font-size: 28px;
+    line-height: 35px;
+
+}
+
+.data{
+    display: block;
+    justify-items: auto;
+}
+
+.name{
+    font-size: 18px;
+    line-height: 19px;
+    padding-top: 3px;
+}
+
+.date{
+    padding: 0;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.text{
+    background-color: #fff;
+    margin: 0;
+    padding: 36px 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.text p{
+    margin-bottom: 10px ;
+}

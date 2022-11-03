@@ -20,14 +20,19 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .body {
-    background-image: url(../img/nature-doroga-gori-les-asfalt-peizazh-131004.jpeg);
-    padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 14px;
-
+    background-size: cover;
 }
+.main{
+    padding-top: 60px;
+    background-image: url(../img/nature-doroga-gori-les-asfalt-peizazh-131004.jpeg);
+    background-size: cover;
+    padding-bottom: 99px;
+}
+
 
 .header {
     font-weight: 400;
@@ -66,7 +71,7 @@ h1,h2,h3,h4,h5,h6,p{
 .main{
 
 }
-.foto {
+.foto1 {
     background-image: url(../img/IMAGE.jpg);
     color: #fff;
 }
@@ -121,7 +126,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 .data{
     display: block;
-    justify-items: auto;
 }
 
 .name{
@@ -149,4 +153,196 @@ h1,h2,h3,h4,h5,h6,p{
 
 .text p{
     margin-bottom: 10px ;
+}
+
+.foto2 {
+    background-image: url(../img/IMAGE2.jpg);
+    color: #fff;
+}
+
+.foto3 {
+    background-image: url(../img/IMAGE3.jpg);
+    color: #fff;
+}
+
+.read-more{
+    background-color: #F1F1F1;
+    margin-bottom: 99px;
+}
+.title{
+    text-align: center;
+    padding-top: 49px;
+    margin-bottom: 21px;
+}
+
+.title h4{
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+}
+
+
+
+.title-btn{
+    display: flex;
+    justify-content: center;
+}   
+.btn-link{
+    font-size: 10px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 8px 25px;
+    text-decoration: none;
+    margin-bottom: 60px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background-color:#8D4FDB;
+    text-transform: uppercase;
+}
+
+.stories{
+    background-color: #fff;
+    padding-bottom: 90px;
+}
+
+
+
+.title-stories{
+    font-size: 40px;
+    line-height: 40px;
+    color:#333333;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 25px;
+}
+
+.question{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 23px;
+    line-height: 33px;
+    color:#A9AFB3;
+
+}
+
+.stories-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+    
+}
+
+.story{
+    max-width: 300px;
+}
+
+.story1{
+    background-image: url(../img/IMAGE_1.jpg);
+    background-size:cover;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.story2{
+    background-image: url(../img/IMAGE_2.jpg);
+    color: #fff;
+    margin-bottom: 23px;
+    background-size:cover;
+}
+
+.story3{
+    background-image: url(../img/IMAGE_3.jpg);
+    color: #fff;
+    margin-bottom: 23px;
+    background-size:cover;
+}
+.portret1,
+.portret2,
+.portret3{
+    display: flex;
+    padding: 130px 0 20px 24px;
+}
+
+.name1
+.name2
+.name3{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.date1
+.date2
+.date3{
+    font-family: 'Lato';
+    font-size: 13px;
+    line-height: 18px;
+
+    
+}
+
+.text-story{
+    
+    font-size: 18px;
+    color: #333333;
+}
+
+.want-read{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+    line-height: 30px;
+    color: #333333;
+
+}
+
+.link-blog{
+    color: #8D4FDB;
+}
+
+
+.footer{
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8B8B8B;
+    background-color: #000;
+    padding: 55px 250px 35px;
+}
+
+.footer-text{
+    min-width: 94px;
+    display: block;
+}
+
+.footer-line1,
+.footer-line2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.purpose{
+    font-size: 13px;
+}
+
+.footer p{
+    margin-right: -8px;
+    margin-left: 10px;
+}
+
+.footer a{
+    margin-left: 10px; 
+    color: #8D4FDB;
+    ;
+}
+
+.footer-text1{
+    padding-right: 15px;
 }
